@@ -23,6 +23,7 @@ describe 'navigate' do
 end
 
 describe 'form' do
+  # form doesn't handle author and so create cannot successfully redirect to show
   it 'shows a new form that submits content and redirects and prints out params' do
     visit new_post_path
 
